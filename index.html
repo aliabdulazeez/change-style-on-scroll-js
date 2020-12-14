@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Udigitals.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">Undigitals.</a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Empty</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Empty</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Empty</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+                <a href="#" id="nav-cta">View</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero"></section>
+
+    <section class="demo-content">
+
+        <div class="landing-text">
+            <h1>Thanks for your time</h1>
+            <h3>ali:codes;</h3>
+            <h6>Don't forget to subscribe!</h6>
+        </div>
+
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
+</body>
+
+</html>
